@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Saber Infinito</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo2.png" alt="Logo de la biblioteca">
+        </a>
+    </div>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+		<h1>Biblioteca Saber Infinito</h1>
+    </div>
+    <div class="cuenta">
+        <button onclick="location.href='login.html'">Acceso a cuenta</button>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>¡Sumérgete en el Mundo de la Lectura!</h1>
+        <p>Descubre un mundo de conocimiento y aventura a través de la lectura. ¡Explora nuestro catálogo ahora!</p>
+        <a href="catalogo.html" class="btn">Explorar Catálogo</a>
+    </div>
+</section>
+
+<section class="search-section">
+    <h2>Búscar Libro</h2>
+    <form action="#" method="get" class="search-form">
+        <div class="search-field">
+            <label for="author">Autor:</label>
+            <input type="text" name="author" id="author" placeholder="Nombre del autor...">
+        </div>
+        <div class="search-field">
+            <label for="title">Título:</label>
+            <input type="text" name="title" id="title" placeholder="Título del libro...">
+        </div>
+        <div class="search-field">
+            <label for="category">Categoría:</label>
+            <select name="category" id="category">
+                <option value="">Seleccione una categoría</option>
+                <option value="novela">Novela</option>
+                <option value="poesia">Poesía</option>
+                <option value="ensayo">Ensayo</option>
+                <!-- Agrega más opciones según las categorías de tu catálogo -->
+            </select>
+        </div>
+        <button type="submit">Buscar</button>
+    </form>
+</section>
+
+<section class="recommended-books">
+    <div class="book">
+        <img src="img/libro 1.jpg">
+        <div class="book-details">
+            <h3>El hombre bicentenario</h3>
+            <p>Isaac Asimov</p>
+            <p>DAndrew Martin es un robot creado en el siglo XXI con la intención de ser un asistente doméstico. 
+			Sin embargo, pronto desarrolla sentimientos y deseos propios, y comienza a buscar la forma de convertirse en un ser humano. 
+			A lo largo de los años, Martin se somete a varias operaciones y mejoras para alcanzar su objetivo, 
+			incluyendo la sustitución de su cuerpo por uno humano..</p>
+        </div>
+    </div>
+    <div class="book">
+        <img src="img/libro2.jpg"> 
+        <div class="book-details">
+            <h3>Un mundo feliz</h3>
+            <p>Aldous Huxley</p>
+            <p>Un mundo feliz es la novela más famosa del escritor británico Aldous Huxley, publicada por primera vez en 1932. 
+			La novela es una distopía que anticipa el desarrollo en tecnología reproductiva, cultivos humanos e hipnopedia, 
+			manejo de las emociones por medio de drogas que, combinadas, cambian radicalmente la sociedad.</p>
+        </div>
+    </div>
+    <!-- Agrega más libros recomendados según sea necesario -->
+</section>
+
+<footer id=footer>
+    <div class="container">
+		<div class="left-column">
+                <img src="img/logo2.png" >
+		</div>
+	
+    <div class="center-column">
+        <h3>Servicios</h3>
+        <ul>
+            <li><a href="#">Préstamo de libros</a></li>
+            <li><a href="#">Consulta en línea</a></li>
+            <li><a href="#">Actividades culturales</a></li>
+            <li><a href="#">Servicios de referencia</a></li>
+        </ul>
+    </div>
+    <div class="right-column">
+        <h3>Términos Legales</h3>
+        <ul>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos de servicio</a></li>
+            <li><a href="#">Aviso legal</a></li>
+            <li><a href="#">Política de cookies</a></li>
+        </ul>
+    </div>
+    <div class="social-column">
+        <h3>Redes Sociales</h3>
+            <a href="#"><img src="img/facebook.png" ></a>
+            <a href="#"><img src="img/twitter.png" ></a>
+            <a href="#"><img src="img/instagram.png" ></a>
+ 
+        
+		</div>
+	</div>
+	</footer>
+
+
+</body>
+</html>
