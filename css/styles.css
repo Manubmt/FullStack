@@ -1,0 +1,259 @@
+ header {
+            background-color: DeepSkyBlue;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        .logo img {
+            width: 200px; 
+            height: auto;
+        }
+
+        .menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .menu ul li {
+            margin-right: 20px;
+        }
+
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .menu ul li a:hover {
+            color: #333; /* Cambia al segundo color que contraste */
+        }
+
+        .cuenta button {
+            background-color: white;
+            color: DeepSkyBlue;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .cuenta button:hover {
+            background-color: #f0f0f0; /* Cambia al segundo color que contraste */
+        }
+		
+	 /* Estilos para la sección hero */
+   hero {
+            background-color: DeepSkyBlue;
+            color: white;
+            padding: 80px 0; /* Ajusta el espacio interno según necesites */
+            text-align: center;
+			align-content: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 10px auto;
+			align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+			text-align: center;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+			text-align: center;
+        }
+	
+        /* Estilos para la llamada a la acción */
+        .btn {
+            background-color: white;
+            color: DeepSkyBlue;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s, color 0.3s;
+			text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #f0f0f0; /* Cambia al segundo color que contraste */
+            color: DeepSkyBlue;
+        }
+	
+	search-section {
+            background-color: DeepSkyBlue;
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .search-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .search-form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .search-field {
+            margin-bottom: 20px;
+        }
+
+        .search-field label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .search-field input[type="text"],
+        .search-field select {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .search-field select {
+            background-color: white;
+            color: DeepSkyBlue;
+        }
+
+        .search-field input[type="text"]::placeholder {
+            color: #ccc; /* Color de texto de marcador de posición */
+        }
+
+        .search-field button {
+            background-color: white;
+            color: DeepSkyBlue;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+			align-items: flex-center;
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+        .search-field button:hover {
+            background-color: #f0f0f0; /* Cambia al segundo color de contraste */
+            color: DeepSkyBlue;
+        }
+		
+	recommended-books {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: DeepSkyBlue;
+            color: white;
+        }
+
+        .book {
+            position: relative;
+            margin: 20px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .book:hover {
+            transform: scale(1.1);
+        }
+
+        .book img {
+            max-width: 200px;
+            height: auto;
+            display: auto;
+        }
+
+        .book-details {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .book:hover .book-details {
+            opacity: 1;
+        }
+
+        .book-details h3,
+        .book-details p {
+            margin: 5px 0;
+        }
+		
+	#footer {
+            background-color: DeepSkyBlue;
+            color: white;
+            padding: auto;
+            text-align: center;
+			
+        }
+    #footer .container{ 
+		display: flex;
+		align-items: flex-center;
+		justify-content;space-around;
+		width: 100%;
+		min-width: 100px;
+		max-width: 150;
+		margin: 10px 10px 10px;
+	}
+
+     #footer h3 {
+            font-size:1.2em;
+			margin: 0 50px 20px;
+        }
+
+     #footer img {
+            max-width: 150px;
+            height: center-right;
+            display: inline;
+            margin: 0px 0px 0px;
+        }
+
+     #footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px;
+            
+        }
+
+    #footer li {
+           font-size:0.9em;
+		   line-height: 1.5;
+		   transition: color 0.5s;
+        }
+
+    #footer a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.5s;
+			
+        }
+
+    #footer li a:hover {
+            color: #800080; /* Cambia al segundo color de contraste */
+        }
+
+		
